@@ -2,13 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-html {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
-  background: #eee;
   padding: 0px 16px;
 }
 
@@ -49,6 +46,7 @@ footer p {
 }
 
 .grid-container {
+  margin-top: 20px;
   display: grid;
   grid-template-areas:
     "header header header header header header"
@@ -56,11 +54,11 @@ footer p {
   grid-gap: 10px;
   background-color: #d1d1d1;
   padding: 10px;
+  grid-gap: 1px;
 }
 
 .grid-container > div {
   background-color: #efefef;
-
   padding: 20px 0;
   font-size: 30px;
 }
@@ -110,6 +108,10 @@ button {
   vertical-align: baseline;
 }
 
+.buttons > h5 {
+  padding-left: 20px;
+}
+
 .buttons:hover,
 .buttons:focus {
   border-color: rgba(0, 0, 0, 0.15);
@@ -131,7 +133,7 @@ button {
 .icon {
   display: flex;
   width: 10%;
-  align: left;
+  /* align: left; */
 }
 .btnText {
   flex-direction: row;

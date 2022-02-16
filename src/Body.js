@@ -4,7 +4,9 @@ function Body() {
   return (
     <div>
       <div className="grid-container">
-        <div className="item1 align">Recent</div>
+        <div className="item1 align ">
+          <h2>Recent</h2>
+        </div>
         <div className="item2">
           <div>
             <button className="buttons btnText">
@@ -13,7 +15,7 @@ function Body() {
                 src="https://img.icons8.com/external-others-iconmarket/64/000000/external-box-email-others-iconmarket-3.png"
                 alt="icon"
               />
-              Inbox
+              <h5>Inbox</h5>
             </button>
             <button className="buttons btnText">
               <img
@@ -21,7 +23,7 @@ function Body() {
                 src="https://img.icons8.com/fluency-systems-regular/48/000000/india-national-emblem.png"
                 alt="icon"
               />
-              Govt Docs
+              <h5>Govt Docs</h5>
             </button>
             <button className="buttons btnText">
               <img
@@ -29,7 +31,7 @@ function Body() {
                 src="https://img.icons8.com/material-outlined/50/000000/smart-home-checked.png"
                 alt="icon"
               />
-              Home Docs
+              <h5>Home Docs</h5>
             </button>
             <button className="buttons btnText">
               <img
@@ -37,7 +39,7 @@ function Body() {
                 src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/000000/external-web-browsing-past-history-activity-timeline-tool-basic-bold-tal-revivo.png"
                 alt="icon"
               />
-              Recent
+              <h5>Recent</h5>
             </button>
           </div>
         </div>
